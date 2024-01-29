@@ -1,1 +1,40 @@
-Log in screen
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Frp
+        </title>
+    </head>
+    <body>
+        <form class="" action="https://vi.wikipedia.org/" method="post">
+            <label for="username">Username</label>
+            <input id="username" type="text" name="" value="" placeholder="Your name"> <br><br>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="" value="" required><br><br>
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" value="" placeholder="Your password" 
+            required pattern=".{4,8}" title="Please write 4-8 characters"><br><br>
+            <lable for="">Male</lable>
+            <input type="radio" name="parents" value="">
+            <lable for="">Female</lable>
+            <input type="radio" name="parents" value=""><br><br>
+            <lable for="">How many children:</lable><br><br>
+            <lable for="">1</lable>
+            <input type="checkbox" name="children" value=""><br><br>
+            <lable for="">2</lable>
+            <input type="checkbox" name="children" value=""><br><br>
+            <lable for="">3</lable>
+            <input type="checkbox" name="children" value=""><br><br>
+            <lable for="">How many time:</lable>
+            <select class="" name="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select><br><br>
+            <input type="date" name="" value=""><br><br>
+            <textarea name="name" rows="4" cols="36" placeholder="Your text"></textarea><br><br>
+            <input type="submit" name="" value="Submit"><br><br>
+        </form>
+    </body>
+</html>
